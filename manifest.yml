@@ -11,6 +11,28 @@
         - save-states
       when:
         - os: linux
+    "<home>/Emulation/saves/azahar/saves":
+      tags:
+        - save
+      when:
+        - os: windows
+    "<home>/Emulation/saves/azahar/states":
+      tags:
+        - save-states
+      when:
+        - os: windows
+"BigPEmu":
+  files:
+    "<home>/Emulation/saves/BigPEmu/saves":
+      tags:
+        - save
+      when:
+        - os: windows
+    "<home>/Emulation/saves/BigPEmu/states":
+      tags:
+        - save-states
+      when:
+        - os: windows
 "Cemu":
   files:
     "<home>/Emulation/roms/wiiu/mlc01/usr/save":
@@ -18,6 +40,11 @@
         - save
       when:
         - os: linux
+    "<home>/Emulation/saves/Cemu/saves":
+      tags:
+        - save
+      when:
+        - os: windows
 "Citra":
   files:
     "<home>/.var/app/org.citra_emu.citra/data/citra-emu/sdmc":
@@ -30,6 +57,16 @@
         - save-states
       when:
         - os: linux
+    "<home>/Emulation/saves/citra/saves":
+      tags:
+        - save
+      when:
+        - os: windows
+    "<home>/Emulation/saves/citra/states":
+      tags:
+        - save-states
+      when:
+        - os: windows
 "Citron":
   files:
     "<home>/Emulation/storage/citron/nand/user/save/":
@@ -37,6 +74,7 @@
         - save
       when:
         - os: linux
+        - os: windows
 "Dolphin":
   files:
     "<home>/.var/app/org.DolphinEmu.dolphin-emu/data/dolphin-emu":
@@ -49,6 +87,21 @@
         - save-states
       when:
         - os: linux
+    "<home>/Emulation/saves/dolphin/GC":
+      tags:
+        - save
+      when:
+        - os: windows
+    "<home>/Emulation/saves/dolphin/Wii":
+      tags:
+        - save
+      when:
+        - os: windows
+    "<home>/Emulation/saves/dolphin/states":
+      tags:
+        - save-states
+      when:
+        - os: windows
 "DuckStation":
   files:
     "<home>/Emulation/saves/duckstation/saves":
@@ -56,11 +109,13 @@
         - save
       when:
         - os: linux
+        - os: windows
     "<home>/Emulation/saves/duckstation/states":
       tags:
         - save-states
       when:
         - os: linux
+        - os: windows
 "Eden":
   files:
     "<home>/Emulation/storage/eden/nand/user/save/":
@@ -68,6 +123,31 @@
         - save
       when:
         - os: linux
+        - os: windows
+"Flycast":
+  files:
+    "<home>/Emulation/saves/flycast/saves":
+      tags:
+        - save
+      when:
+        - os: windows
+    "<home>/Emulation/saves/flycast/states":
+      tags:
+        - save-states
+      when:
+        - os: windows
+"Lime3DS":
+  files:
+    "<home>/Emulation/saves/lime3ds/saves":
+      tags:
+        - save
+      when:
+        - os: windows
+    "<home>/Emulation/saves/lime3ds/states":
+      tags:
+        - save-states
+      when:
+        - os: windows
 "MAME":
   files:
     "<home>/Emulation/saves/MAME/saves":
@@ -75,11 +155,13 @@
         - save
       when:
         - os: linux
+        - os: windows
     "<home>/Emulation/saves/MAME/states":
       tags:
         - save-states
       when:
         - os: linux
+        - os: windows
 "melonDS":
   files:
     "<home>/Emulation/saves/melonds/saves":
@@ -87,11 +169,13 @@
         - save
       when:
         - os: linux
+        - os: windows
     "<home>/Emulation/saves/melonds/states":
       tags:
         - save-states
       when:
         - os: linux
+        - os: windows
 "mGBA":
   files:
     "<home>/Emulation/saves/mgba/saves":
@@ -99,11 +183,13 @@
         - save
       when:
         - os: linux
+        - os: windows
     "<home>/Emulation/saves/mgba/states":
       tags:
         - save-states
       when:
         - os: linux
+        - os: windows
 "PCSX2":
   files:
     "<home>/Emulation/saves/pcsx2/saves":
@@ -111,11 +197,13 @@
         - save
       when:
         - os: linux
+        - os: windows
     "<home>/Emulation/saves/pcsx2/states":
       tags:
         - save-states
       when:
         - os: linux
+        - os: windows
 "PPSSPP":
   files:
     "<home>/.var/app/org.ppsspp.PPSSPP/config/ppsspp/PSP/SAVEDATA":
@@ -128,6 +216,16 @@
         - save-states
       when:
         - os: linux
+    "<home>/Emulation/saves/ppsspp/saves":
+      tags:
+        - save
+      when:
+        - os: windows
+    "<home>/Emulation/saves/ppsspp/states":
+      tags:
+        - save-states
+      when:
+        - os: windows
 "PrimeHack":
   files:
     "<home>/.var/app/io.github.shiiion.primehack/data/dolphin-emu/Wii":
@@ -140,6 +238,21 @@
         - save-states
       when:
         - os: linux
+    "<home>/Emulation/saves/primehack/GC":
+      tags:
+        - save
+      when:
+        - os: windows
+    "<home>/Emulation/saves/primehack/Wii":
+      tags:
+        - save
+      when:
+        - os: windows
+    "<home>/Emulation/saves/primehack/StateSaves":
+      tags:
+        - save-states
+      when:
+        - os: windows
 "RetroArch":
   files:
     "<home>/.var/app/org.libretro.RetroArch/config/retroarch/saves":
@@ -152,6 +265,16 @@
         - save-states
       when:
         - os: linux
+    "<home>/Emulation/saves/retroarch/saves":
+      tags:
+        - save
+      when:
+        - os: windows
+    "<home>/Emulation/saves/retroarch/states":
+      tags:
+        - save-states
+      when:
+        - os: windows
 "Rosalie's Mupen GUI":
   files:
     "<home>/Emulation/saves/RMG/saves":
@@ -159,11 +282,13 @@
         - save
       when:
         - os: linux
+        - os: windows
     "<home>/Emulation/saves/RMG/states":
       tags:
         - save-states
       when:
         - os: linux
+        - os: windows
 "RPCS3":
   files:
     "<home>/Emulation/storage/rpcs3/dev_hdd0/home/00000001/savedata":
@@ -171,6 +296,11 @@
         - save
       when:
         - os: linux
+    "<home>/Emulation/saves/rpcs3/saves":
+      tags:
+        - save
+      when:
+        - os: windows
 "Ryujinx":
   files:
     "<home>/.config/Ryujinx/bis/user/save":
@@ -183,6 +313,16 @@
         - save-meta
       when:
         - os: linux
+    "<home>/Emulation/saves/ryujinx/saves":
+      tags:
+        - save
+      when:
+        - os: windows
+    "<home>/Emulation/saves/ryujinx/saveMeta":
+      tags:
+        - save-meta
+      when:
+        - os: windows
 "ScummVM":
   files:
     "<home>/Emulation/saves/scummvm/saves":
@@ -190,6 +330,21 @@
         - save
       when:
         - os: linux
+        - os: windows
+"shadPS4":
+  files:
+    "<home>/Emulation/saves/shadps4/saves":
+      tags:
+        - save
+      when:
+        - os: windows
+"Supermodel":
+  files:
+    "<home>/Emulation/saves/supermodel/saves":
+      tags:
+        - save
+      when:
+        - os: windows
 "Vita3K":
   files:
     "<home>/Emulation/storage/Vita3K/ux0/user/00/savedata":
@@ -197,6 +352,11 @@
         - save
       when:
         - os: linux
+    "<home>/Emulation/saves/Vita3K/saves":
+      tags:
+        - save
+      when:
+        - os: windows
 "Xemu":
   files:
     "<home>/Emulation/storage/xemu":
@@ -204,6 +364,11 @@
         - save
       when:
         - os: linux
+    "<home>/Emulation/saves/xemu/saves":
+      tags:
+        - save
+      when:
+        - os: windows
 "Xenia":
   files:
     "<home>/Emulation/roms/xbox360/content":
@@ -211,6 +376,11 @@
         - save
       when:
         - os: linux
+    "<home>/Emulation/saves/xenia/saves":
+      tags:
+        - save
+      when:
+        - os: windows
 "Yuzu":
   files:
     "<home>/Emulation/storage/yuzu/nand/user/save/":
@@ -218,3 +388,4 @@
         - save
       when:
         - os: linux
+        - os: windows

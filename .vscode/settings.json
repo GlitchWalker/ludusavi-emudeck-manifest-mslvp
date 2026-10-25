@@ -1,0 +1,9 @@
+{
+  "yaml.schemas": {
+    "https://raw.githubusercontent.com/mtkennerly/ludusavi-manifest/master/data/schema.yaml": "manifest.yml"
+  },
+  "[yaml]": {
+    "editor.tabSize": 2,
+    "editor.insertSpaces": true
+  }
+}

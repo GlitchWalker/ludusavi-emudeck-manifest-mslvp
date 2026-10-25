@@ -1,0 +1,11 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(git status:*)",
+      "Bash(git diff:*)",
+      "Bash(git log:*)",
+      "PowerShell(.\\scripts\\preview.ps1:*)",
+      "Read(D:\\Emulation\\**)"
+    ]
+  }
+}
